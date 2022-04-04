@@ -12,10 +12,10 @@ bgImage.src = `img/${chosenImage}`;
 
 document.body.appendChild(bgImage);
 
+
 // querySelecor 사용하는 방법 
 // const bgImage = document.querySelector("#background");
 // bgImage.src = `img/${chosenImage}`;
-
 
 // body태그에 background-image태그로 입력
 // const backgroundImage = document.body.style.backgroundImage;
