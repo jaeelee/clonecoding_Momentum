@@ -7,7 +7,7 @@ google chrom momentum app clone coding
 - 로그인 (local storage에 유저정보 저장)
 - todo list (local storage에 저장)
 
-## 개선사항
+<!-- ## 개선사항 -->
 
 
 ## memo
