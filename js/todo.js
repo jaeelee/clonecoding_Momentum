@@ -38,13 +38,13 @@ function paintTodo(newTodo)
 function handleTodoSubmit(event) {
     event.preventDefault();
     const newTodo = todoInput.value;
-    const nnewTodoObj = {
+    const newTodoObj = {
         text: newTodo,
         id: Date.now()
     }
     todoInput.value = "";
-    todos.push(nnewTodoObj);
-    paintTodo(nnewTodoObj);
+    todos.push(newTodoObj);
+    paintTodo(newTodoObj);
     saveTodos();
 }
 
